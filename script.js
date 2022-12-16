@@ -5,11 +5,12 @@ for (var i = 0; i < 50; i++) {
 }
 
 
+
 // Even numbers from 1 to 50
 for (var i = 0; i <= 50; i++) {
   if (i % 2 == 0) {
     console.log(i);
-    document.write(i + "<br>");
+    document.write("This is an Even Number " + i + "<br>");
   }
 }
 
@@ -28,7 +29,7 @@ for (var i = 0; i <= 50; i++) {
 for (var i = 0; i <= 50; i++) {
   if (i % 2 != 0) {
     console.log(i);
-    document.write(i + "<br>");
+    document.write("This is an Odd Number " + i + "<br>");
   }
 }
 
