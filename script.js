@@ -1,8 +1,11 @@
-for (var i = 0; i < 51; i++) {
+// Numbers from 1 to 50
+for (var i = 0; i < 50; i++) {
   console.log(i);
   document.write(i + "<br>");
 }
 
+
+// Even numbers from 1 to 50
 for (var i = 0; i <= 50; i++) {
   if (i % 2 == 0) {
     console.log(i);
@@ -10,6 +13,8 @@ for (var i = 0; i <= 50; i++) {
   }
 }
 
+
+// Adds 1 to even numbers from 1 to 50
 for (var i = 0; i <= 50; i++) {
   if (i % 2 == 0) {
     i++;
@@ -18,6 +23,8 @@ for (var i = 0; i <= 50; i++) {
   }
 }
 
+
+// Odd numbers from 1 to 50
 for (var i = 0; i <= 50; i++) {
   if (i % 2 != 0) {
     console.log(i);
@@ -25,6 +32,8 @@ for (var i = 0; i <= 50; i++) {
   }
 }
 
+
+//Adds 1 to odd numbers from 1 to 50
 for (var i = 0; i <= 50; i++) {
   if (i % 2 != 0) {
     i++;
